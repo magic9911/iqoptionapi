@@ -1,6 +1,6 @@
 """Module for IQ option profile resource."""
 
-from iqoptionapi.http.resource import Resource
+from iqoptionapi2.http.resource import Resource
 
 
 class Profile(Resource):

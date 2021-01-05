@@ -3,8 +3,8 @@
 import json
 import logging
 import websocket
-import iqoptionapi.constants as OP_code
-import iqoptionapi.global_value as global_value
+import iqoptionapi2.constants as OP_code
+import iqoptionapi2.global_value as global_value
 
 
                 

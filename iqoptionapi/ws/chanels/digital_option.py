@@ -2,8 +2,8 @@
 
 import datetime
 import time
-from iqoptionapi.ws.chanels.base import Base
-import iqoptionapi.global_value as global_value
+from iqoptionapi2.ws.chanels.base import Base
+import iqoptionapi2.global_value as global_value
 #work for forex digit cfd(stock)
 
 class Digital_options_place_digital_option(Base):

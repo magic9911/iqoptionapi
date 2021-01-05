@@ -1,7 +1,7 @@
 """Module for IQ option changebalance resource."""
 
-from iqoptionapi.http.resource import Resource
-from iqoptionapi.http.profile import Profile
+from iqoptionapi2.http.resource import Resource
+from iqoptionapi2.http.profile import Profile
 
 
 class Changebalance(Resource):

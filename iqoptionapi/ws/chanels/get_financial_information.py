@@ -1,4 +1,4 @@
-from iqoptionapi.ws.chanels.base import Base
+from iqoptionapi2.ws.chanels.base import Base
 class GetFinancialInformation(Base):
     name = "sendMessage"
     def __call__(self,activeId):

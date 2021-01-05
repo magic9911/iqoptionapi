@@ -1,8 +1,8 @@
 """Module for IQ option unsubscribe websocket chanel."""
 
-from iqoptionapi.ws.chanels.base import Base
+from iqoptionapi2.ws.chanels.base import Base
 import datetime
-import iqoptionapi.constants as OP_code
+import iqoptionapi2.constants as OP_code
 
 
 class Get_user_profile_client(Base):

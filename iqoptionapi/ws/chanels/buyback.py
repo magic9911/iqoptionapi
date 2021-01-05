@@ -1,6 +1,6 @@
 """Module for IQ Option buyback websocket chanel."""
 
-from iqoptionapi.ws.chanels.base import Base
+from iqoptionapi2.ws.chanels.base import Base
 
 
 class Buyback(Base):

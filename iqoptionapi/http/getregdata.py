@@ -1,7 +1,7 @@
 """Module for IQ Option http getregdata resource."""
 
-from iqoptionapi.http.resource import Resource
-from iqoptionapi.http.register import Register
+from iqoptionapi2.http.resource import Resource
+from iqoptionapi2.http.register import Register
 
 
 class Getprofile(Resource):

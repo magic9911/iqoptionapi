@@ -1,11 +1,11 @@
 """Module for IQ Option buyV2 websocket chanel."""
 import datetime
 import time
-from iqoptionapi.ws.chanels.base import Base
+from iqoptionapi2.ws.chanels.base import Base
 import logging
-from iqoptionapi.expiration import get_expiration_time
+from iqoptionapi2.expiration import get_expiration_time
 from datetime import datetime,timedelta
-import iqoptionapi.global_value  as global_value
+import iqoptionapi2.global_value  as global_value
 
 class Buyv2(Base):
     """Class for IQ option buy websocket chanel."""

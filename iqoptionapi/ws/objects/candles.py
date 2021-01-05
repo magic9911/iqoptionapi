@@ -1,6 +1,6 @@
 """Module for IQ Option Candles websocket object."""
 
-from iqoptionapi.ws.objects.base import Base
+from iqoptionapi2.ws.objects.base import Base
 
 
 class Candle(object):

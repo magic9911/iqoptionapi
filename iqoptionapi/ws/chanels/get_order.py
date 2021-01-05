@@ -1,6 +1,6 @@
 import datetime
 import time
-from iqoptionapi.ws.chanels.base import Base
+from iqoptionapi2.ws.chanels.base import Base
 
 
 class Get_order(Base):

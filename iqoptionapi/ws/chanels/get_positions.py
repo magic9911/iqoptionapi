@@ -1,7 +1,7 @@
 import datetime
 import time
-from iqoptionapi.ws.chanels.base import Base
-import iqoptionapi.global_value as global_value
+from iqoptionapi2.ws.chanels.base import Base
+import iqoptionapi2.global_value as global_value
 
 class Get_positions(Base):
     name = "sendMessage"

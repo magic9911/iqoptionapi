@@ -1,9 +1,9 @@
 import datetime
 import time
-from iqoptionapi.ws.chanels.base import Base
+from iqoptionapi2.ws.chanels.base import Base
 import logging
-import iqoptionapi.global_value as global_value
-from iqoptionapi.expiration import get_expiration_time
+import iqoptionapi2.global_value as global_value
+from iqoptionapi2.expiration import get_expiration_time
 class Buyv3(Base):
 
     name = "sendMessage"

@@ -1,7 +1,7 @@
 """Module for IQ option buyback resource."""
 
-from iqoptionapi.http.resource import Resource
-from iqoptionapi.http.billing import Billing
+from iqoptionapi2.http.resource import Resource
+from iqoptionapi2.http.billing import Billing
 
 
 class Buyback(Resource):

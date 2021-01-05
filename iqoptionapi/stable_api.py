@@ -1,15 +1,15 @@
 # python
-from iqoptionapi.api import IQOptionAPI
-import iqoptionapi.constants as OP_code
-import iqoptionapi.country_id as Country
+from iqoptionapi2.api import IQOptionAPI
+import iqoptionapi2.constants as OP_code
+import iqoptionapi2.country_id as Country
 import threading
 import time
 import logging
 import operator
-import iqoptionapi.global_value as global_value
+import iqoptionapi2.global_value as global_value
 from collections import defaultdict
 from collections import deque
-from iqoptionapi.expiration import get_expiration_time, get_remaning_time
+from iqoptionapi2.expiration import get_expiration_time, get_remaning_time
 from datetime import datetime, timedelta
 
 

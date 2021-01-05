@@ -1,5 +1,5 @@
  
-from iqoptionapi.ws.chanels.base import Base
+from iqoptionapi2.ws.chanels.base import Base
 import time
 
 class Sell_Option(Base):
